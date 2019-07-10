@@ -97,5 +97,5 @@ links: [
 deploy: 
   type: git
   repository: git@github.com:JustinWuCN/github.io.git
-  branch: master
+  branch: public
 
