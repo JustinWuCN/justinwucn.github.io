@@ -76,12 +76,6 @@ pagination_dir: page
 theme: landscape
 #theme: next 
 
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
-
 links: [
     {
         name: "github",
@@ -97,3 +91,11 @@ links: [
         link: "http://www.google.cn/maps"
     }
 ]
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy: 
+  type: git
+  repository: git@github.com:JustinWuCN/github.io.git
+  branch: master
+
