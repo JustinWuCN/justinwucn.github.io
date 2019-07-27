@@ -2,7 +2,7 @@
 layout: post
 title: 切换为jekyll框架 
 date: 2019-07-15
-categories: 随笔
+categories: 博客创建过程
 ---
 
 花了几天时间，对jekyll框架做了一个初步的了解。  
