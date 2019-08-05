@@ -33,6 +33,24 @@ plugins:
 lang: zh-CN
 author: Justin
 show_excerpts: true
+featured-condition-size: 1
+
+# Friends
+friends: [
+    {
+        title: "github",
+        href: "http://www.github.com"
+    },{
+        title: "git pages",
+        href: "http://pages.github.com"
+    },{
+        title: "meizu",
+        href: "https://www.meizu.com"
+    },{
+        title: "google maps",
+        href: "http://www.google.cn/maps"
+    }
+]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

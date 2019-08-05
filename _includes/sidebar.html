@@ -2,7 +2,29 @@
 <h3>
 <p><a href="/about/index.html">about</a></p>
 		  
-<p>tag列表:</p>
-<p>友情链接:</p>
+<p>分类:</p>
 
-</h3>
+<ul>
+{% for category in site.categories %}
+  <li><a href="{{ site.baseurl }}/tags/#{{ category[0] }}" title="{{ category[0] }}" rel="{{ category[1].size }}">
+     <h3>{{ category[0] }}</h3>
+  </a> </li>
+
+</ul>
+<!--  <ul>
+    {% for post in category[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul> -->
+{% endfor %}
+
+<!-- Friends Blog -->
+{% if site.friends %}
+	<hr>
+	<p>友情链接:</p>
+	<ul class="list-inline">
+		{% for friend in site.friends %}
+			<li><a href="{{friend.href}}">{{friend.title}}</a></li>
+		{% endfor %}
+	</ul>
+{% endif %}
